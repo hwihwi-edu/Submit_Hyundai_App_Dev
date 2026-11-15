@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 담당: 3번. 추천용 기상청 최신 실황·예보 조회 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 안내 중 프로세스 유지(TripForegroundService, 2번) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+
+    <!-- 차량(AAOS) 전용 앱 -->
+    <uses-feature android:name="android.hardware.type.automotive" android:required="true" />
+
+    <!-- Pleos Vehicle SDK: 기어·주행 상태, 주행거리(Odometer), 배터리·연료(EvBattery/Fuel) -->
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+    <uses-permission android:name="pleos.car.permission.CAR_MILEAGE" />
+    <!-- Pleos NaviHelper SDK: 목적지·경유지 경로 요청, 경로 정보 조회 -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <!-- Pleos NaviHelper SDK: 내비 화면 띄우기(requestNavigationScreen). Protection level: Normal -->
+    <uses-permission android:name="pleos.car.permission.NAVI_CUSTOM_MAP" />
+    <!-- 3번: Pleos TTS(음성 해설). normal 권한 -->
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+    <!-- 3번: Pleos STT(말로 대답하기). STT_SERVICE 는 normal, 마이크는 실행 중 허용 -->
+    <uses-permission android:name="pleos.car.permission.STT_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".TravelMapApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- 주행 중에도 화면을 유지하려면 필요. 대신 CarUxRestrictions를 반드시 지켜야 한다. -->
+            <meta-data android:name="distractionOptimized" android:value="true" />
+        </activity>
+
+        <service
+            android:name=".TripForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+    </application>
+</manifest>

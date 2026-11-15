@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 채움지도 적응형 아이콘(Codex 자체 제작, 전경/배경 각 108dp = 432px @xxxhdpi). minSdk 28 이라 적응형만 둔다. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

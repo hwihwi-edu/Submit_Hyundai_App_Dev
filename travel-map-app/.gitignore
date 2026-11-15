@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# 관광 API 인증정보와 미검수 수집물
+.env
+.env.*
+.local/
+__pycache__/

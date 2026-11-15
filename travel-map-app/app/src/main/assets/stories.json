@@ -1,0 +1,50 @@
+[
+  {
+    "id": "suwon_hwaseong_haenggung",
+    "title": "[오디 원본·2025년 자료] 수원 화성행궁",
+    "lat": 37.281,
+    "lng": 127.0146,
+    "audio": "stories/suwon_hwaseong_haenggung.mp3",
+    "radiusM": 8000
+  },
+  {
+    "id": "pyeongtaek_station",
+    "title": "[오디 원본·2024년 자료] 평택역",
+    "lat": 36.991145,
+    "lng": 127.084981,
+    "audio": "stories/pyeongtaek_station.mp3",
+    "radiusM": 12000.0
+  },
+  {
+    "id": "cheonan_samgeori",
+    "title": "[오디 원본·2024년 자료] 천안삼거리공원",
+    "lat": 36.783977,
+    "lng": 127.167579,
+    "audio": "stories/cheonan_samgeori.mp3",
+    "radiusM": 10000
+  },
+  {
+    "id": "gimcheon_yeongnam_gate",
+    "title": "[오디 원본·2022년 자료] 영남의 제1관문, 김천",
+    "lat": 36.1173322,
+    "lng": 128.0080048,
+    "audio": "stories/gimcheon_yeongnam_gate.mp3",
+    "radiusM": 22000.0
+  },
+  {
+    "id": "daegu_dodong_seowon",
+    "title": "[오디 원본·2026년 자료] 대구 도동서원",
+    "lat": 35.7010574,
+    "lng": 128.3718414,
+    "audio": "stories/daegu_dodong_seowon.mp3",
+    "radiusM": 8000
+  },
+  {
+    "id": "miryang_eupseong",
+    "title": "[오디 원본·2025년 자료] 밀양읍성",
+    "lat": 35.492508,
+    "lng": 128.758497,
+    "audio": "stories/miryang_eupseong.mp3",
+    "radiusM": 15000.0
+  }
+]

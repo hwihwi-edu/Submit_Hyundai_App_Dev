@@ -1,0 +1,437 @@
+{
+ "note": "시연용 예시 응답이다. 실제 이용자 리뷰가 아니며 문장 없이 응답 수만 담는다. 화면에는 '예시 포함'으로 표시한다(3번).",
+ "items": [
+  {
+   "contentId": "250279",
+   "placeName": "둔산선사유적지",
+   "lat": 36.3609515326,
+   "lng": 127.3789369395,
+   "revisitYes": 3,
+   "revisitNo": 0,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "2753410",
+   "placeName": "산1번지 타로카페",
+   "lat": 36.3310521855091,
+   "lng": 127.451932481866,
+   "revisitYes": 1,
+   "revisitNo": 3,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 1,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "2766449",
+   "placeName": "샤를몽탁",
+   "lat": 36.3613577717,
+   "lng": 127.5015630111,
+   "revisitYes": 3,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "2767014",
+   "placeName": "카페 팡시온(팡시온카페)",
+   "lat": 36.3778141736,
+   "lng": 127.5040678739,
+   "revisitYes": 2,
+   "revisitNo": 3,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "2865847",
+   "placeName": "델빠네",
+   "lat": 36.3250844759,
+   "lng": 127.3447112083,
+   "revisitYes": 3,
+   "revisitNo": 0,
+   "parking": {
+    "EASY": 1,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "2633904",
+   "placeName": "대청호 벚꽃길",
+   "lat": 36.3665,
+   "lng": 127.5043,
+   "revisitYes": 1,
+   "revisitNo": 3,
+   "parking": {
+    "EASY": 1,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "127542",
+   "placeName": "보문산 행복 숲 둘레길",
+   "lat": 36.3092682155,
+   "lng": 127.4222435934,
+   "revisitYes": 4,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 1,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "2758655",
+   "placeName": "테미공원",
+   "lat": 36.3192,
+   "lng": 127.4218,
+   "revisitYes": 1,
+   "revisitNo": 2,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 1,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "126508",
+   "placeName": "경복궁",
+   "lat": 37.5760307,
+   "lng": 126.9767218661,
+   "revisitYes": 3,
+   "revisitNo": 0,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "129811",
+   "placeName": "국립고궁박물관",
+   "lat": 37.57659156422034,
+   "lng": 126.97497486352258,
+   "revisitYes": 3,
+   "revisitNo": 4,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 1,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "126487",
+   "placeName": "마로니에공원",
+   "lat": 37.5801873639,
+   "lng": 127.0027075831,
+   "revisitYes": 5,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 1,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "3035607",
+   "placeName": "광화문 마켓",
+   "lat": 37.5716249337,
+   "lng": 126.9767679222,
+   "revisitYes": 3,
+   "revisitNo": 4,
+   "parking": {
+    "EASY": 1,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 1,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "134752",
+   "placeName": "광화문미진",
+   "lat": 37.5708445236,
+   "lng": 126.9799236559,
+   "revisitYes": 5,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "1877251",
+   "placeName": "모뜨",
+   "lat": 37.611769123,
+   "lng": 126.9750871537,
+   "revisitYes": 1,
+   "revisitNo": 3,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "1922730",
+   "placeName": "부빙",
+   "lat": 37.5926851636603,
+   "lng": 126.965344205516,
+   "revisitYes": 5,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 1,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "126528",
+   "placeName": "절두산 순교성지",
+   "lat": 37.5445898728,
+   "lng": 126.9118594003,
+   "revisitYes": 1,
+   "revisitNo": 3,
+   "parking": {
+    "EASY": 2,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "1942233",
+   "placeName": "대각사(부산)",
+   "lat": 35.1010451194,
+   "lng": 129.0306894387,
+   "revisitYes": 5,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 1,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "4115096",
+   "placeName": "달려라부산 러닝페스티벌",
+   "lat": 35.1144041132,
+   "lng": 129.0464193172,
+   "revisitYes": 2,
+   "revisitNo": 3,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "133227",
+   "placeName": "구포집",
+   "lat": 35.1012021857204,
+   "lng": 129.024628919021,
+   "revisitYes": 5,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "133796",
+   "placeName": "어가초밥",
+   "lat": 35.0971999572,
+   "lng": 129.0288286381,
+   "revisitYes": 1,
+   "revisitNo": 2,
+   "parking": {
+    "EASY": 1,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "133906",
+   "placeName": "명송초밥",
+   "lat": 35.1017495533909,
+   "lng": 129.035883410739,
+   "revisitYes": 3,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "1942299",
+   "placeName": "남선창고터",
+   "lat": 35.1167561879,
+   "lng": 129.0394826608,
+   "revisitYes": 3,
+   "revisitNo": 4,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 1
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 1
+   }
+  },
+  {
+   "contentId": "2785276",
+   "placeName": "하기연진주냉면",
+   "lat": 35.1027603445,
+   "lng": 128.9678615384,
+   "revisitYes": 6,
+   "revisitNo": 1,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 2,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  },
+  {
+   "contentId": "2781799",
+   "placeName": "덕미",
+   "lat": 35.1963614754,
+   "lng": 129.2277813826,
+   "revisitYes": 1,
+   "revisitNo": 2,
+   "parking": {
+    "EASY": 3,
+    "OK": 1,
+    "HARD": 0
+   },
+   "waiting": {
+    "NONE": 3,
+    "SHORT": 1,
+    "LONG": 0
+   }
+  }
+ ]
+}
